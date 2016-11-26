@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fdr.cyberlabs.fdr">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Detail.DetailTire" />
+        <activity android:name=".Tirelogy.Tirelogy" />
+        <activity android:name=".TireType.MainActivity" />
+        <activity android:name=".Tirelogy.Techno.Techno" />
+        <activity android:name=".Tirelogy.Techno.TechnoDetail" />
+        <activity android:name=".TireType.TireTube.TireTube" />
+        <activity android:name=".Tirelogy.UsageSafety.UsageSafety" />
+        <activity android:name=".Tirelogy.UsageSafety.UsageDetail" />
+        <activity android:name=".Tirelogy.Knowledge.TireKnow" />
+        <activity android:name=".Tirelogy.Knowledge.DetailKnow" />
+        <activity android:name=".Tirelogy.Knowledge.DetailBan"></activity>
+    </application>
+
+</manifest>

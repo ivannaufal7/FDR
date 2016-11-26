@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIRELOGY"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#ed1e24"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tire Knowledge"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="#191919"
+        android:paddingLeft="23dp"
+        />
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#ed1e24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEMBACA SIMBOL"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="#ed1e24"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:layout_weight="1"
+            android:id="@+id/btnSimbol"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIRE STRUCTURE"
+            style="?android:attr/borderlessButtonStyle"
+            android:background="#191919"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:layout_weight="1"
+            android:id="@+id/btnTire"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:id="@+id/fragSimbol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/back"
+                android:adjustViewBounds="true"
+                android:maxWidth="80dp"
+                android:maxHeight="50dp"
+                />
+</LinearLayout>
